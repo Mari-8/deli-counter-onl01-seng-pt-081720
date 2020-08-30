@@ -9,10 +9,9 @@ require 'pry'
     array.length == 0
     puts "The line is currently empty."
   else
-   i = 0 
-   while i < array.length 
-    names << array[i].to_s
-    i += 1 
+    i = 0
+   array.each do |name|
+     puts "#{i + 1}. #{name}""
   end
 
   
