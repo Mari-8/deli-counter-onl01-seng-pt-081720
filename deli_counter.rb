@@ -9,12 +9,9 @@ require 'pry'
     array.length == 0
     puts "The line is currently empty."
   else
-    i = 0
-    while i < array.length 
-    names << array[i]
-    i += 1
+   array.map {|i| "'#{i}'"}.join(",")
   end
-  names.join("', '")
+  #names.join("', '")
   names
   binding.pry
   
