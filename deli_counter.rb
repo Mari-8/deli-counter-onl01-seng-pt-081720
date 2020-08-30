@@ -9,9 +9,9 @@ require 'pry'
     array.length == 0
     puts "The line is currently empty."
   else
-   names.each do |s|
-     names << answers.to_s 
-   end
+   i = 0 
+   while i < array.length 
+    names << array[i].to_s
   names
   binding.pry
   
