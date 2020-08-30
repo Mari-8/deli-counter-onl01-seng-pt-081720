@@ -2,7 +2,6 @@ require 'pry'
 
 
   def line(array)
-    try = []
     names = ""
     answer = "The line is currently:"
   if
@@ -16,9 +15,6 @@ require 'pry'
   end
   names.rstrip!
   puts "#{answer}" + " " + "#{names}"
- 
-  
-  
   end
   end
 
