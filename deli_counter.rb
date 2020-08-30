@@ -11,7 +11,7 @@ require 'pry'
   else
     i = 0
    array.each do |name|
-     puts "#{i + 1}. #{name}""
+     names << "#{i + 1}. #{name}""
   end
 
   
