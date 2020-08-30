@@ -10,7 +10,7 @@ require 'pry'
     puts "The line is currently empty."
   else
    names.each do |s|
-     s.to_s << answer
+     names << answers.to_s 
    end
   names
   binding.pry
