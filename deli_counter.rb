@@ -12,6 +12,8 @@ require 'pry'
    i = 0 
    while i < array.length 
     names << array[i].to_s
+    i += 1 
+  end
   names
   binding.pry
   
