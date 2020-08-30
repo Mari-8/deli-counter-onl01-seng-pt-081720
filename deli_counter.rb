@@ -9,8 +9,8 @@ require 'pry'
     array.length == 0
     puts "The line is currently empty."
   else
-   array.map {|i| "'#{i}'"}.join(",")
-  #names.join("', '")
+   names.each do |s|
+     s.to_s << answer
   names
   binding.pry
   
