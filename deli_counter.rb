@@ -15,7 +15,7 @@ require 'pry'
      i += 1 
   end
 
-  puts "#{answer}" + " " + "#{names}"
+  puts "#{answer}" + " " + "#{names}".rstrip
  binding.pry
   
   
