@@ -14,9 +14,9 @@ require 'pry'
     names << array[i].to_s
     i += 1 
   end
-  names.insert 27, ", "
-  names.insert 32, ", "
-  names.insert 24, " "
+ # names.insert 27, ", "
+ # names.insert 32, ", "
+ # names.insert 24, " "
   
  binding.pry
   
