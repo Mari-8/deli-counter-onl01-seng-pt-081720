@@ -16,7 +16,7 @@ require 'pry'
   end
   names.rstrip!
   puts "#{answer}" + " " + "#{names}"
- binding.pry
+ 
   
   
   end
