@@ -11,17 +11,14 @@ require 'pry'
   else
    i = 0 
    while i < array.length 
-    names << array[i].to_s
+    names << "#{i + 1} array[i].to_s"
     i += 1 
   end
   names.insert 27, ", "
   names.insert 32, ", "
   names.insert 24, " "
   
-  o = 0 
-  while o < array.length 
-    puts "#{answer} #{i}#{names[i]"
-  end
+ 
   
   
   end
