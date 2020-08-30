@@ -3,7 +3,7 @@ require 'pry'
 
   def line(array)
     try = []
-    names = "The line is currently:"
+    names = ""
     answer = "The line is currently:"
   if
     array.length == 0
