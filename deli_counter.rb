@@ -18,7 +18,10 @@ require 'pry'
   names.insert 32, ", "
   names.insert 24, " "
   
-  
+  o = 0 
+  while o < array.length 
+    puts "#{answer} #{i}#{names[i]"
+  end
   
   
   end
