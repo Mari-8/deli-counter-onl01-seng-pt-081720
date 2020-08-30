@@ -14,7 +14,7 @@ require 'pry'
     names << array[i].to_s
     i += 1 
   end
-  names["LoganAviSpencer"]
+  names["LoganAviSpencer"] = "Logan, Avi, Spencer"
   binding.pry
   
   
