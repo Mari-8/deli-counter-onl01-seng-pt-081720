@@ -14,7 +14,7 @@ require 'pry'
     names << array[i].to_s
     i += 1 
   end
-  names[27] = ", "
+  names.insert 27 
   binding.pry
   
   
