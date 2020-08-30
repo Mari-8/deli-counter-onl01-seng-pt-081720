@@ -14,7 +14,7 @@ require 'pry'
      names << "#{i + 1}. #{name} "
      i += 1 
   end
-  names.rstrip
+  names.rstrip!
   puts "#{answer}" + " " + "#{names}"
  binding.pry
   
