@@ -11,6 +11,7 @@ require 'pry'
   else
    names.each do |s|
      s.to_s << answer
+   end
   names
   binding.pry
   
