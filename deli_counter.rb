@@ -18,7 +18,7 @@ require 'pry'
   names.insert 32, ", "
   names.insert 24, " "
   
- 
+ binding.pry
   
   
   end
