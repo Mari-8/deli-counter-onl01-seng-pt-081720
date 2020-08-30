@@ -4,14 +4,14 @@ require 'pry'
   def line(array)
     try = []
     names = "The line is currently:"
-    answer = ["The line is currently:"]
+    answer = "The line is currently:"
   if
     array.length == 0
     puts "The line is currently empty."
   else
    i = 0 
    while i < array.length 
-    names << " #{i + 1}"array[i].to_s
+    names << array[i].to_s
     i += 1 
   end
   names.insert 27, ", "
