@@ -12,10 +12,9 @@ require 'pry'
     i = 0
    array.each do |name|
      names << "#{i + 1}. #{name} "
-     names.rstrip
      i += 1 
   end
-
+  names.rstrip
   puts "#{answer}" + " " + "#{names}"
  binding.pry
   
