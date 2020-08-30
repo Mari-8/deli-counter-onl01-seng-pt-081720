@@ -10,7 +10,6 @@ require 'pry'
     puts "The line is currently empty."
   else
    array.map {|i| "'#{i}'"}.join(",")
-  end
   #names.join("', '")
   names
   binding.pry
